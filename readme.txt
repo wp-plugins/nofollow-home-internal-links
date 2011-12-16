@@ -10,9 +10,9 @@ Home page internal links always take too much pagerank away from homepage.If you
 
 This plugin will add the "nofollow" rel attribute to unimportant internal link in the homepage ,including: read more, tag cloud links,post tag,categories,post category,pages,archive links,post author link and comments popup link. Support me by link to my website.
 
-My website:<a href="http://www.igoseo.net/" target="_blank">http://www.igoseo.net/</a>
+My website:<a rel="follow" href="http://www.igoseo.net/" target="_blank">http://www.igoseo.net/</a>
 
-For more information,refer to <a rel="follow" href="http://www.igoseo.net/wordpress-nofollow-home-internal-links.html" target="_blank">Nofollow Home Internal Links</a>.
+For more information,refer to <a rel="follow" href="http://www.igoseo.net/wordpress-nofollow-home-internal-links.html" target="_blank">Nofollow Home Internal Links</a>
 
 Support me by introducing this plugin to your friends, or give me a high rate on WordPress.org .Thank you!
 
@@ -29,7 +29,7 @@ This error means you have already declared add_nofollow_to_link() in your functi
 	<li>(Strongly Recommended)Remove "add_filter('the_content_more_link','add_nofollow_to_link', 0);" in nofollow_home_internal_links.php on line 29</li>
 	<li>Search your funtions.php file for "add_filter('the_content_more_link','add_nofollow_to_link', 0);" and remove it. (This may cause unkonwn problems and is not recommended)</li>
 </ol>
-For more information,refer to http://www.igoseo.net/wordpress-nofollow-home-internal-links.html.
+For more information,refer to <a rel="follow" href="http://www.igoseo.net/wordpress-nofollow-home-internal-links.html" target="_blank">Nofollow Home Internal Links</a>
 
 == Screenshots ==
 
